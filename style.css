@@ -206,11 +206,13 @@ category:before {
 }
 
 .rating {
+  top: 30px;
+  left: 0;
   font-size: 1.2rem;
 }
 
 .title-main {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   padding-left: 10px;
   overflow: hidden;
 }
@@ -235,8 +237,9 @@ button {
 }
 
 .movie-info button {
-  width: 180px;
-  margin: 10px auto;
+  width: 90%;
+  height: 40px;
+  margin: 5px auto;
 }
 
 .watch-later {

@@ -2,6 +2,7 @@
 
 import movies from "./moviesList.js";
 
+//--- Function to create movie tiles and modals---//
 function createMoviesModals(moviesList) {
   const modalContainer = document.querySelector(".modal-container");
 
@@ -29,11 +30,14 @@ function createMoviesModals(moviesList) {
     director.textContent = `Director: ${el.director}`;
     const cast = document.createElement("li");
     cast.textContent = `Starring: ${el.cast}`;
+    const genre = document.createElement("li");
+    genre.textContent = `Genre: ${el.genre}`;
 
     movieDetails.appendChild(moviePoster);
     movieDetails.appendChild(productionYear);
     movieDetails.appendChild(director);
     movieDetails.appendChild(cast);
+    movieDetails.appendChild(genre);
 
     summary.appendChild(movieDetails);
 
@@ -67,9 +71,12 @@ function createMoviesModals(moviesList) {
     const movieRating = document.createElement("div");
     movieRating.classList.add("rating");
     movieRating.textContent = "🍌" + moviesList[index].rating;
-    const titleMain = document.createElement("p");
+    const titleMain = document.createElement("h1");
     titleMain.classList.add("title-main");
     titleMain.textContent = `${el.title}`;
+    if (el.title.length > 15) {
+      titleMain.style.fontSize = "1rem";
+    }
     const watchMovie = document.createElement("button");
     watchMovie.classList.add("watch-movie");
     watchMovie.textContent = "Watch movie";
@@ -86,12 +93,11 @@ function createMoviesModals(moviesList) {
 
 createMoviesModals(movies);
 
-//--------//
 const watchMovieBtn = document.querySelectorAll(".watch-movie");
 const moviesList = document.querySelectorAll(".movie-modal");
 const overlay = document.querySelector(".overlay");
 const closeMovie = document.querySelectorAll(".close-modal");
-const trailerVideo = document.querySelectorAll(".trailer");
+const trailerVideo = document.querySelectorAll(".trailer"); //not used yet
 
 const watchMovieHandler = (index) => {
   moviesList[index].classList.remove("hidden");
