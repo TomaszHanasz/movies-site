@@ -71,6 +71,16 @@ const movies = [
     description:
       "In 1764 something was stalking the mountains of central France. A 'beast' that pounced on humans and animals with terrible ferocity. Indeed they beast became so notorious that the King of France dispatched envoys to find out what was happening and to kill the creature. By the end, the Beast of Gevaudan had killed over 100 people.To this day, no one is entirely sure what it was, a wolf? a hyena? or something supernatural? The Beast is a popular myth in France, albeit one rooted firmly in reality; somewhat surprisingly it is little known to the outside world, and perhaps incredibly it has never been made into a movie. Until now. Based on the true story of the Beast of the Gevaudan that terrorized France in the eighteenth century, the movie aims to tell first and explain afterwards.",
   },
+  {
+    image: "./images/threeidiots.jpeg",
+    rating: "8.4",
+    title: "Three idiots",
+    year: "2009",
+    director: "Rajkumar Hirani",
+    cast: "Aamir Khan",
+    description:
+      "Rancho is an engineering student. His two friends. Farhan and Raju, Rancho sees the world in a different way. Rancho goes somewhere one day. And his friends find him. When Rancho is found, he has become one of a great scientist in the world.",
+  },
 ];
 
 export default movies;
