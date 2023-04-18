@@ -82,8 +82,37 @@ const movies = [
       "Rancho is an engineering student. His two friends. Farhan and Raju, Rancho sees the world in a different way. Rancho goes somewhere one day. And his friends find him. When Rancho is found, he has become one of a great scientist in the world.",
   },
   {
-    image:
-      "./images/Spider-Man_No_Way_Home_–_The_More_Fun_Stuff_Version_poster.jpeg",
+    image: "https://media.thecherrypicks.com/images/train_to_busan_.max-1200x1200.format-jpeg.jpegquality-70.jpg",
+    rating: "7.6",
+    title: "Train to Busan",
+    year: "2016",
+    director: "Sang Ho Yeon",
+    cast: "Goong Yoo",
+    description:
+      "While a zombie virus breaks out in South Korea, passengers struggle to survive on the train from Seoul to Busan.",
+  },
+  {
+    image: "https://m.media-amazon.com/images/I/51c1GhIFi8L._AC_UF1000,1000_QL80_.jpg",
+    rating: "8.1",
+    title: "My neighbor Totoro",
+    year: "1988",
+    director: "Hayo Miyazaki",
+    cast: "",
+    description:
+      "When two girls move to the country to be near their ailing mother, they have adventures with the wondrous forest spirits who live nearby.",
+  },
+  {
+    image: "https://m.media-amazon.com/images/I/51ROjdVz1uL._AC_UF894,1000_QL80_.jpg",
+    rating: "8.2",
+    title: "Moving Castle",
+    year: "2004",
+    director: "Hayo Miyazaki",
+    cast: "",
+    description:
+      "When an unconfident young woman is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking castle.",
+},
+{
+    image: "./images/Spider-Man_No_Way_Home_–_The_More_Fun_Stuff_Version_poster.jpeg",
     rating: "8.2",
     title: "Spider-Man: No Way Home",
     year: "2021",
@@ -111,6 +140,7 @@ const movies = [
     cast: "Liam Neeson, Ben Kingsley, Jonathan Sagall, Ralph Fiennes",
     description:
       "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+
   },
 ];
 
