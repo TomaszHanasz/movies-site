@@ -81,6 +81,37 @@ const movies = [
     description:
       "Rancho is an engineering student. His two friends. Farhan and Raju, Rancho sees the world in a different way. Rancho goes somewhere one day. And his friends find him. When Rancho is found, he has become one of a great scientist in the world.",
   },
+  {
+    image:
+      "./images/Spider-Man_No_Way_Home_–_The_More_Fun_Stuff_Version_poster.jpeg",
+    rating: "8.2",
+    title: "Spider-Man: No Way Home",
+    year: "2021",
+    director: "Jon Watts",
+    cast: "Tom Holland, Zendaya",
+    description:
+      "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.",
+  },
+  {
+    image: "./images/LOR.jfif",
+    rating: "9.0",
+    title: "The Lord of the Rings: The Return of the King",
+    year: "2003",
+    director: "Peter Jackson",
+    cast: "Elijah Wood, Ian McKellen, Orlando Bloom, Cate Blanchett",
+    description:
+      "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+  },
+  {
+    image: "./images/schindlers.jfif",
+    rating: "9.0",
+    title: "Schindler's List",
+    year: "1999",
+    director: "Steven Spielberg",
+    cast: "Liam Neeson, Ben Kingsley, Jonathan Sagall, Ralph Fiennes",
+    description:
+      "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+  },
 ];
 
 export default movies;
