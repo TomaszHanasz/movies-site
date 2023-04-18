@@ -159,6 +159,17 @@ const movies = [
     description:
       "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
   },
+  {
+    image: "./images/1.webp",
+    rating: "8.2",
+    title: "John Wick: 4",
+    genre: "triller",
+    year: "2023",
+    director: "Chad stahelski",
+    cast: "Keanu Reeves, Michael Nyqvist, Alfie Allen",
+    description:
+      "An ex-hit-man comes out of retirement to track down the gangsters that killed his dog and took his car.",
+  }
 ];
 
 export default movies;
