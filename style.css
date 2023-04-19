@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -78,22 +79,26 @@ header {
   align-items: center;
   flex-flow: column nowrap;
   margin: 0 2%;
+  perspective: 400px;
 }
 
 .logo {
   flex-grow: 1;
-  color: rgb(2, 2, 2);
-  font-size: 15vw;
-  text-shadow: 12px 12px 0px rgba(19, 37, 111, 0.6);
+  color: rgba(8, 8, 58, 0.835);
+  font-family: "Rubik Pixels", cursive, sans-serif;
+  font-size: 15rem;
+  text-shadow: 8px 12px 17px #0648fffd;
   transition: all 0.5s ease-out;
 }
 
 .logo-text {
-  font-family: "Dancing Script", sans-serif;
+  font-family: "Rubik Wet Paint", cursive, sans-serif;
   flex-grow: 1;
   text-align: center;
-  color: rgb(240, 0, 0);
-  font-size: 12vw;
+  color: rgb(200, 38, 38);
+  transform: rotateX(20deg) rotateY(20deg);
+  transform-style: preserve-3d;
+  font-size: 8rem;
   bottom: 70px;
   right: 100px;
   transition: all 0.5s ease-out;
@@ -333,6 +338,14 @@ footer {
   .summary img {
     width: 120px;
     height: 180px;
+  }
+
+  .logo {
+    font-size: 5rem;
+    text-shadow: 4px 6px 9px #ff000090;
+  }
+  .logo-text {
+    font-size: 3rem;
   }
 }
 
