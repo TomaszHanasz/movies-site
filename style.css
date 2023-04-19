@@ -85,14 +85,14 @@ header {
 .logo {
   flex-grow: 1;
   color: rgba(8, 8, 58, 0.835);
-  font-family: "Rubik Pixels", cursive;
+  font-family: "Rubik Pixels", cursive, sans-serif;
   font-size: 15rem;
   text-shadow: 8px 12px 17px #0648fffd;
   transition: all 0.5s ease-out;
 }
 
 .logo-text {
-  font-family: "Rubik Wet Paint", cursive;
+  font-family: "Rubik Wet Paint", cursive, sans-serif;
   flex-grow: 1;
   text-align: center;
   color: rgb(200, 38, 38);
