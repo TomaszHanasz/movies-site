@@ -272,8 +272,10 @@ button {
 footer::before {
   content: "";
   display: block;
-  margin: 45px auto;
-  width: 97%;
+  text-align: center;
+  margin-bottom: 10px;
+
+  width: 95%;
   border-bottom: 2px solid rgb(0, 0, 0);
 }
 
