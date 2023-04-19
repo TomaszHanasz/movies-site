@@ -159,6 +159,52 @@ const movies = [
     description:
       "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
   },
+  {
+    image: "./images/images.jpeg",
+    rating: "9.0",
+    title: "Memoirs of a Geisha",
+    genre: "drama, historical",
+    year: "2005",
+    director: "Rob Marshall",
+    cast: "Zhang Ziy,Ken Watanabe,Michelle Yeoh, Kōji Yakusho",
+    description:
+      "Memoirs of a Geisha is a 2005 American epic period drama film directed by Rob Marshall and adapted by Robin Swicord from the 1997 novel of the same name by Arthur Golden.",
+  },
+
+  {
+    image: "/images/download.jpeg",
+    rating: "9.0",
+    title: "Breakfast at Tiffany's",
+    genre: "drama",
+    year: "1961",
+    director: "	Blake Edwards",
+    cast: "	Audrey Hepburn,George Peppard,Patricia Neal",
+    description:
+      "Breakfast at Tiffany's is a 1961 American romantic comedy film directed by Blake Edwards, written by George Axelrod, adapted from Truman Capote's 1958 novella of the same name, and starring Audrey Hepburn as Holly Golightly, a naïve, eccentric café society girl who falls in love with a struggling writer",
+  },
+
+  {
+    image: "./images/Coyote_ugly_poster.jpeg",
+    rating: "9.0",
+    title: "Coyote Ugly",
+    genre: "drama",
+    year: "2000",
+    director: "	David McNally",
+    cast: "	Piper Perabo, Adam Garcia, Maria Bella,  Melanie Lynskey ,John Goodman",
+    description:
+      "As mentioned in the film, the slang term coyote ugly refers to the feeling of waking up after a one-night stand, and discovering that one's arm is underneath someone who is so physically repulsive that one would gladly chew it off without waking the person just so one can get away without being discovered.",
+  },
+  {
+    image: "./images/1.webp",
+    rating: "8.2",
+    title: "John Wick: 4",
+    genre: "triller",
+    year: "2023",
+    director: "Chad stahelski",
+    cast: "Keanu Reeves, Michael Nyqvist, Alfie Allen",
+    description:
+      "An ex-hit-man comes out of retirement to track down the gangsters that killed his dog and took his car.",
+  }
 ];
 
 export default movies;

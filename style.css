@@ -114,8 +114,11 @@ category:before {
 }
 
 .modal-container {
-  display: flex;
-  flex-flow: row wrap;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  width: 70vw;
+  margin: 0 auto;
+  justify-items: center;
   justify-content: center;
   gap: 20px;
 }
@@ -206,8 +209,6 @@ category:before {
 }
 
 .rating {
-  top: 30px;
-  left: 0;
   font-size: 1.2rem;
 }
 
@@ -278,18 +279,21 @@ footer::before {
   border-bottom: 2px solid rgb(0, 0, 0);
 }
 
-@media screen and (max-width: 1050px) {
-  .movie-modal {
-    width: 100%;
+@media screen and (max-width: 1500px) {
+  .modal-container {
+    grid-template-columns: repeat(5, 1fr);
   }
+}
 
-  .title {
-    font-size: 2rem;
-    padding-right: 50px;
+@media screen and (max-width: 1080px) {
+  .modal-container {
+    grid-template-columns: repeat(4, 1fr);
   }
+}
 
-  .movie-text {
-    font-size: 1.5rem;
+@media screen and (max-width: 900px) {
+  .modal-container {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -300,7 +304,14 @@ footer::before {
   }
 
   nav ul li a {
-    font-size: 1rem;
+    font-size: 2rem;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: inherit;
   }
 
   .title {
@@ -322,5 +333,17 @@ footer::before {
   .summary img {
     width: 120px;
     height: 180px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .modal-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .modal-container {
+    grid-template-columns: 1fr;
   }
 }
