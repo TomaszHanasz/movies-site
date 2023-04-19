@@ -273,6 +273,7 @@ button {
 footer {
   display: block;
   text-align: center;
+  justify-content: space-around;
   margin-bottom: 5px;
   width: 100%;
   border-top: 2px solid rgb(0, 0, 0);
