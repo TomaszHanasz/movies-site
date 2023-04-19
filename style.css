@@ -78,13 +78,14 @@ header {
   align-items: center;
   flex-flow: column nowrap;
   margin: 0 2%;
+  perspective: 400px;
 }
 
 .logo {
   flex-grow: 1;
-  color: rgb(2, 2, 2);
-  font-size: 15vw;
-  text-shadow: 12px 12px 0px rgba(19, 37, 111, 0.6);
+  color: rgb(3, 17, 58);
+  font-size: 15rem;
+  text-shadow: 8px 12px 17px #0648fffd;
   transition: all 0.5s ease-out;
 }
 
@@ -92,8 +93,10 @@ header {
   font-family: "Dancing Script", sans-serif;
   flex-grow: 1;
   text-align: center;
-  color: rgb(240, 0, 0);
-  font-size: 12vw;
+  color: rgb(146, 35, 68);
+  transform: rotateX(20deg) rotateY(20deg);
+  transform-style: preserve-3d;
+  font-size: 10rem;
   bottom: 70px;
   right: 100px;
   transition: all 0.5s ease-out;
@@ -332,6 +335,14 @@ footer::before {
   .summary img {
     width: 120px;
     height: 180px;
+  }
+
+  .logo {
+    font-size: 5rem;
+    text-shadow: 4px 6px 9px #ff000090;
+  }
+  .logo-text {
+    font-size: 3rem;
   }
 }
 
