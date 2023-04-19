@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -83,20 +84,21 @@ header {
 
 .logo {
   flex-grow: 1;
-  color: rgb(3, 17, 58);
+  color: rgba(8, 8, 58, 0.835);
+  font-family: "Rubik Pixels", cursive;
   font-size: 15rem;
   text-shadow: 8px 12px 17px #0648fffd;
   transition: all 0.5s ease-out;
 }
 
 .logo-text {
-  font-family: "Dancing Script", sans-serif;
+  font-family: "Rubik Wet Paint", cursive;
   flex-grow: 1;
   text-align: center;
-  color: rgb(146, 35, 68);
+  color: rgb(200, 38, 38);
   transform: rotateX(20deg) rotateY(20deg);
   transform-style: preserve-3d;
-  font-size: 10rem;
+  font-size: 8rem;
   bottom: 70px;
   right: 100px;
   transition: all 0.5s ease-out;
