@@ -273,12 +273,12 @@ button {
   z-index: 5;
 }
 
-footer::before {
-  content: "";
+footer {
   display: block;
-  margin: 45px auto;
-  width: 97%;
-  border-bottom: 2px solid rgb(0, 0, 0);
+  text-align: center;
+  margin-bottom: 5px;
+  width: 100%;
+  border-top: 2px solid rgb(0, 0, 0);
 }
 
 @media screen and (max-width: 1500px) {
