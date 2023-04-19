@@ -56,6 +56,10 @@ function createMoviesModals(moviesList) {
     playMovie.classList.add("play");
     playMovie.textContent = "Play movie ▷";
 
+    const trailerVideo = document.createElement("iframe");
+    trailerVideo.src = el.trailer;
+    trailerVideo.classList.add("trailer");
+
     movieDescription.appendChild(title);
     movieDescription.appendChild(movieInfo);
     movieDescription.appendChild(playMovie);
@@ -63,6 +67,7 @@ function createMoviesModals(moviesList) {
     movieModal.appendChild(closeMovie);
     movieModal.appendChild(summary);
     movieModal.appendChild(movieDescription);
+    movieModal.appendChild(trailerVideo);
 
     const movieStatus = document.createElement("div");
     movieStatus.classList.add("movie-info");
