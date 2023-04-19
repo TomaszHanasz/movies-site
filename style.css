@@ -270,13 +270,13 @@ button {
   z-index: 5;
 }
 
-footer::before {
+footer {
   content: "";
   display: block;
   text-align: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   width: 95%;
-  border-bottom: 2px solid rgb(0, 0, 0);
+  border-top: 2px solid rgb(0, 0, 0);
 }
 
 @media screen and (max-width: 1500px) {
