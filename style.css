@@ -151,6 +151,12 @@ category:before {
   padding-bottom: 30px;
 }
 
+.trailer {
+  width: 320px;
+  height: 240px;
+  align-self: center;
+}
+
 .movie-text {
   font-size: 1.5rem;
   padding-bottom: 30px;
