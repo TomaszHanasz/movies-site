@@ -212,6 +212,28 @@ const movies = [
     description:
       "An ex-hit-man comes out of retirement to track down the gangsters that killed his dog and took his car.",
   },
+  {
+    image: "./images/movieposter.jpg",
+    rating: "9.2",
+    title: "Eat Pray Love",
+    genre: "romantic drama",
+    year: "2010",
+    director: "Ryan Murphy",
+    cast: "Julia Roberts, Liz Gilbert, Javier Bardem",
+    description:
+      "Eat, Pray, Love is about what can happen when you claim responsibility for your own contentment and stop trying to live in imitation of society's ideals.",
+  },
+  {
+    image: "./images/unnamed.jpg",
+    rating: "9.5",
+    title: "Fast&Furious 5",
+    genre: "action",
+    year: "2011",
+    director: "Justin Lin",
+    cast: "Vin Diesel, Dominic Toretto, Paul Walker ",
+    description:
+      "In the film, Dom and Brian, along with Dom's sister Mia (Brewster), recruit a team to help them steal $100 million from drug lord Hernan Reyes (de Almeida).",
+  },
 ];
 
 export default movies;
