@@ -298,6 +298,21 @@ footer {
   .modal-container {
     grid-template-columns: repeat(5, 1fr);
   }
+
+  .movie-modal {
+    width: 80%;
+    height: 45rem;
+    overflow-y: auto;
+    overflow-x: hidden !important;
+  }
+
+  .movie-text {
+    font-size: 1rem;
+  }
+
+  .watch-flex {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 1080px) {
@@ -313,11 +328,6 @@ footer {
 }
 
 @media screen and (max-width: 750px) {
-  .watch-flex {
-    display: flex;
-    flex-direction: column;
-  }
-
   nav ul li a {
     font-size: 2rem;
   }
@@ -333,10 +343,6 @@ footer {
     font-size: 1.5rem;
     padding-right: 50px;
     padding-top: 20px;
-  }
-
-  .movie-text {
-    font-size: 1rem;
   }
 
   .summary {
